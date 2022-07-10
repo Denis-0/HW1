@@ -23,7 +23,7 @@
 --show transaction isolation level;   
 --read committed--
 
-начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции
+начать новую транзакцию в обоих сессиях с дефолтным (не меняя) уровнем изоляции 
 
 в первой сессии добавить новую запись insert into persons(first_name, second_name) values('sergey', 'sergeev');
 
